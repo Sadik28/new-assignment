@@ -11,7 +11,7 @@ const Service = (props) => {
       <br />
       <h5> {about}</h5>
       <h5>Tuition: ${price}</h5>
-      <Button className="m-5 p-2 w-75">Apply</Button>
+      <Button className="m-5 p-2 w-75">Apply Here</Button>
     </Card>
   );
 };

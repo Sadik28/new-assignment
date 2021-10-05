@@ -49,7 +49,7 @@ const Header = () => {
       </h1>
       <div className="d-flex m-3 md-5 p-3">
         <Image src="https://images.adsttc.com/media/images/5fc0/5c21/63c0/17dd/6300/0d91/newsletter/FI.jpg?1606442005" />
-        <div className="mx-auto">
+        <div className="mx-auto mt-5">
           <h2>Welcome To Our Academic</h2>
           <h4 className="m-4">Quality service at affordable fees</h4>
           <p>
