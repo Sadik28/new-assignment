@@ -48,11 +48,12 @@ const Header = () => {
         Institute Of Engineering Academic
       </h1>
       <div className="d-flex m-3 md-5 p-3">
-        <Image src="https://i.pinimg.com/550x/9d/e5/1a/9de51a58b1bd469b6a411aef457d1155.jpg" />
+        <Image src="https://images.adsttc.com/media/images/5fc0/5c21/63c0/17dd/6300/0d91/newsletter/FI.jpg?1606442005" />
         <div className="mx-auto">
+          <h2>Welcome To Our Academic</h2>
           <h4 className="m-4">Quality service at affordable fees</h4>
           <p>
-            We ensure that our service always best. And our representative{" "}
+            We ensure that our service always best. And our representative
             <br /> are educated and they always satisfied you, to give our
             services.
           </p>

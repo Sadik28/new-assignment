@@ -17,7 +17,12 @@ const Home = () => {
       {allServices.map((service) => (
         <Service key={service.id} service={service}></Service>
       ))}
-      <Link to="/service">Click Here for more details</Link>
+      <Link
+        className="text-decoration-none fs-5 border text-white p-2 bg-secondary rounded-3"
+        to="/service"
+      >
+        Click Here for more details
+      </Link>
     </div>
   );
 };

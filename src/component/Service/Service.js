@@ -1,14 +1,17 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+import { Button, Card } from "react-bootstrap";
 
 const Service = (props) => {
-  const { img, name, details, price } = props.service;
+  const { img, name, about, price } = props.service;
   return (
-    <Card>
+    <Card className="h-100">
       <img src={img} alt="" />
-      <h5>Service Name: {name}</h5>
-      <h5>Service Details: {details}</h5>
-      <h5>Price : ${price}</h5>
+      <br />
+      <h3>{name}</h3>
+      <br />
+      <h5> {about}</h5>
+      <h5>Tuition: ${price}</h5>
+      <Button className="m-5 p-2 w-75">Apply</Button>
     </Card>
   );
 };
